@@ -1,4 +1,4 @@
-**cabin-porn-wallpaper** is a python script for Windows 7 that changes your wallpaper to a random [cabin porn](http://cabinporn.com/) comic.
+**cabin-porn-wallpaper** is a python script for Windows 7 that changes your wallpaper to a random [cabin porn](http://cabinporn.com/) landscape.
 
 Credits
 =======
