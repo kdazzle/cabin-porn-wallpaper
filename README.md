@@ -25,8 +25,4 @@ cabin-porn-wallpaper is a script for Windows only tested under Windows 7.
    * Start in: Full path to your location of the script directory ** without quotes **
    * Stop the task if it runs longer than **1 hour**
 
-You can test that it works by selecting the task, right clicking and picking **"Run"**. Alternatively, you can import Wallpaper.xml from the repository into the Windows Task Scheduler and modify the settings accordingly.
-
-License
-=======
-xkcd-wall is licensed under the MIT license. See the file LICENSE for more information.
+You can test that it works by selecting the task, right clicking and picking **"Run"**. Alternatively, you can import Cabin Porn.xml from the repository into the Windows Task Scheduler and modify the settings accordingly.
