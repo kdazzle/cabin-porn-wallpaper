@@ -20,9 +20,9 @@ cabin-porn-wallpaper is a script for Windows only tested under Windows 7.
         * For a duration of Indefinitely
         * Enabled
    * Actions: **Start program**
-   * Program/script: Your virtual environment's path to python.exe or "C:\python27\python.exe" ** include quotation marks **
-   * Arguments: Full path to your location of the script file; ** include quotation marks **
-   * Start in: Full path to your location of the script directory ** without quotes **
+   * Program/script: Your virtual environment's path to python.exe or "C:\python27\python.exe" **include quotation marks**
+   * Arguments: Full path to your location of the script file; **include quotation marks**
+   * Start in: Full path to your location of the script directory **without quotes**
    * Stop the task if it runs longer than **1 hour**
 
 You can test that it works by selecting the task, right clicking and picking **"Run"**. Alternatively, you can import Cabin Porn.xml from the repository into the Windows Task Scheduler and modify the settings accordingly.
