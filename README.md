@@ -1,28 +1,28 @@
-**xkcd-wall** is a python script for Windows 7 that changes your wallpaper to a random [xkcd](http://xkcd.com/) comic daily.
+**cabin-porn-wallpaper** is a python script for Windows 7 that changes your wallpaper to a random [cabin porn](http://cabinporn.com/) comic.
 
 Credits
 =======
-The xkcd API uses [the xkcd library](https://github.com/gtklocker/xkcd) by **Kostis "gtklocker" Karantias** licensed under the MIT license.
-
+Forked from the [xkcd-wallpaper](https://github.com/abody/xkcd-wallpaper) project
 Wallpaper code is by [ AKM](http://gabbpuy.blogspot.gr/2007/02/set-windows-wallpaper-from-python.html).
 
 Installing
 ==========
-xkcd-wall is a script for Windows only tested under Windows 7.
+cabin-porn-wallpaper is a script for Windows only tested under Windows 7.
 
- * Install [Python 2.7+](http://python.org/)
- * Install [PIL](http://www.pythonware.com/products/pil/) for your Python version.
- * Install [pywin32](http://sourceforge.net/projects/pywin32/)
- * [The xkcd library](https://github.com/gtklocker/xkcd) is included in this repository, so you won't have to install it.
- * Create a directory and clone the source code there. For me that was "C:\Users\dionyziz\Documents\xkcd-wall".
+ * Install the required packages (in requirements.txt)
+ * [pywin32](http://sourceforge.net/projects/pywin32/) might have to be install manually
  * Open the Windows Task Scheduler. In the Start menu type "Task Scheduler"
  * Create a new task with the following settings:
    * Run only **when user is logged in**
-   * Triggers: **Daily**
+   * Triggers: 
+        ** Begin Task: At log on 
+        ** Repeat Task every 15 minutes (or whatever)
+        ** For a duration of Indefinitely
+        ** Enabled
    * Actions: **Start program**
-   * Program/script: **"C:\python27\python.exe"** (or your version of Python; include quotation marks)
-   * Arguments: **"C:\Users\dionyziz\Documents\xkcd-wall\xkcd-wall-2.py"** (full path to your location of the script file; include quotation marks)
-   * Start in: **C:\Users\dionyziz\Documents\xkcd-wall** (full path to your location of the script directory without quotes)
+   * Program/script: Your virtual environment's path to python.exe or "C:\python27\python.exe" ** include quotation marks **
+   * Arguments: Full path to your location of the script file; ** include quotation marks **
+   * Start in: Full path to your location of the script directory ** without quotes **
    * Stop the task if it runs longer than **1 hour**
 
 You can test that it works by selecting the task, right clicking and picking **"Run"**. Alternatively, you can import Wallpaper.xml from the repository into the Windows Task Scheduler and modify the settings accordingly.
