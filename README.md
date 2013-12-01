@@ -15,10 +15,10 @@ cabin-porn-wallpaper is a script for Windows only tested under Windows 7.
  * Create a new task with the following settings:
    * Run only **when user is logged in**
    * Triggers: 
-        ** Begin Task: At log on 
-        ** Repeat Task every 15 minutes (or whatever)
-        ** For a duration of Indefinitely
-        ** Enabled
+        * Begin Task: At log on 
+        * Repeat Task every 15 minutes (or whatever)
+        * For a duration of Indefinitely
+        * Enabled
    * Actions: **Start program**
    * Program/script: Your virtual environment's path to python.exe or "C:\python27\python.exe" ** include quotation marks **
    * Arguments: Full path to your location of the script file; ** include quotation marks **
