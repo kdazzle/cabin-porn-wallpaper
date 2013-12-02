@@ -10,7 +10,8 @@ Installing
 cabin-porn-wallpaper is a script for Windows and tested only under Windows 7.
 
  * Install the required packages (in requirements.txt)
- * [pywin32](http://sourceforge.net/projects/pywin32/) might have to be install manually
+   * <pre>pip install -Ur requirements.txt</pre>
+ * [pywin32](http://sourceforge.net/projects/pywin32/) might have to be installed manually
  * Open the Windows Task Scheduler. In the Start menu type "Task Scheduler"
  * Create a new task with the following settings:
    * Run only **when user is logged in**
