@@ -37,7 +37,10 @@ def get_random_image_from_html(html):
 # This function is by AKM licensed under the BSD license
 # 
 def setWallPaper():
-    image = get_random_cabin_porn_image()
+    image = None
+    while image is None or image.size[0] < 1200:
+        image = get_random_cabin_porn_image()
+
     result = windll.user32.SystemParametersInfoA(
         SPI_SETDESKWALLPAPER, 0,
         IMAGE_PATH,
